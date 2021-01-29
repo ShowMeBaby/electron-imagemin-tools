@@ -1,0 +1,25 @@
+{
+  "name": "retrocode-yatu",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . retrocode压图工具 --win --out build --arch=x64 --electron-version 9.0.3 --overwrite  --icon=./public/icon/icon.ico --ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0",
+    "md5": "^2.3.0"
+  }
+}
